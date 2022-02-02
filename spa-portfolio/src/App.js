@@ -1,7 +1,9 @@
+import PlainPage from "./Components/PlainPage";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Here we go with react</h1>
+    <div className="main">
+      <PlainPage />
     </div>
   );
 }
