@@ -31,3 +31,10 @@ code {
   background-color: lightblue;
   height: 75px;
 }
+
+.header {
+  width: 100%;
+  background-color: lightcoral;
+  height: 75px;
+  position: absolute;
+}
