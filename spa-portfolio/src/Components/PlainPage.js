@@ -15,6 +15,17 @@ const styles = {
     width: '100%',
     height: '50vh',
     backgroundColor: 'blue'
+  },
+  img: {
+    width: '50%',
+    height: '100%',
+    backgroundColor: 'lightpink'
+  },
+  imgRight: {
+    width: '50%',
+    height: '100%',
+    backgroundColor: 'lightpink',
+    float: 'right'
   }
 }
 
@@ -22,13 +33,19 @@ export default function PlainPage() {
   return (
     <div className="plainPage">
       <div style={styles.aboutMe}>
+        <div style={styles.img}>
 
+        </div>
       </div>
       <div style={styles.myProject}>
+        <div style={styles.imgRight}>
 
+        </div>
       </div>
       <div style={styles.contact}>
+        <div style={styles.img}>
 
+        </div>
       </div>
     </div>
   )
