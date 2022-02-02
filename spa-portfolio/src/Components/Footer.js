@@ -1,15 +1,38 @@
 import React from "react";
 
+const styles = {
+  footer: {
+    width: '100%',
+    backgroundColor: 'lightblue',
+    height: '75px',
+  },
+  innerFooter: {
+    margin: '0 auto',
+    width: '50%',
+    backgroundColor: 'lightgreen',
+    height: '100%',
+    display: 'flex',
+  },
+  links: {
+    width: '50%',
+    display: 'flex',
+  },
+  copyright: {
+    width: '50%',
+    textAlign: 'right',
+  }
+}
+
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="inner-footer">
-        <div className="links">
+    <div style={styles.footer}>
+      <div style={styles.innerFooter}>
+        <div style={styles.links}>
           <p>About me</p>
           <p>My projects</p>
           <p>Contact</p>
         </div>
-        <div className="copyright">
+        <div style={styles.copyright}>
           <p>All rights reserved</p>
         </div>
       </div>
