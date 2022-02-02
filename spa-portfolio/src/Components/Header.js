@@ -10,7 +10,6 @@ const styles = {
   innerHeader: {
     margin: '0 auto',
     width: '30%',
-    backgroundColor: 'lightgreen',
     height: '100%',
     display: 'flex',
     justifyContent: 'space-between',

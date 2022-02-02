@@ -25,3 +25,9 @@ code {
   height: 150vh;
   margin: 70vh auto 50px;
 }
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

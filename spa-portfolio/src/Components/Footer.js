@@ -9,7 +9,6 @@ const styles = {
   innerFooter: {
     margin: '0 auto',
     width: '50%',
-    backgroundColor: 'lightgreen',
     height: '100%',
     display: 'flex',
   },
@@ -19,7 +18,8 @@ const styles = {
   },
   copyright: {
     width: '50%',
-    textAlign: 'right',
+    display: 'flex',
+    justifyContent: 'right'
   }
 }
 
