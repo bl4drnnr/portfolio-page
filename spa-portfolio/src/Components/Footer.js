@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   footer: {
     width: '100%',
-    backgroundColor: 'lightblue',
+    backgroundColor: '#131313',
     height: '75px',
   },
   innerFooter: {
