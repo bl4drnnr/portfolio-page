@@ -91,7 +91,7 @@ export default function PlainPage() {
         </div>
         <div style={styles.textWrap}>
           <div style={styles.text}>
-            <code><span className="begin">And</span> here is the list of places where you can find and text me, feel free to do it, I'll be glad to receive any feedback.</code>
+            <code><span className="begin">And</span> here is the list of places where you also can find and text me, feel free to do it, I'll be glad to receive any feedback.</code>
           </div>
         </div>
       </div>

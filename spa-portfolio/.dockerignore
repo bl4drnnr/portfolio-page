@@ -35,6 +35,7 @@ bower_components
 spa-portfolio/build/Release
 
 # Dependency directories
+node_modules/
 spa-portfolio/node_modules/
 jspm_packages/
 
@@ -92,4 +93,6 @@ spa-portfolio/.DS_Store
 *.swp
 
 spa-portfolio/package-lock.json
+package-lock.json/
 
+README.md
