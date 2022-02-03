@@ -19,13 +19,13 @@ const styles = {
   img: {
     width: '50%',
     height: '100%',
-    backgroundColor: 'lightpink',
+    backgroundColor: '#131313',
     borderRadius: '65px'
   },
   imgRight: {
     width: '50%',
     height: '100%',
-    backgroundColor: 'lightpink',
+    backgroundColor: '#131313',
     float: 'right',
     borderRadius: '65px'
   },
@@ -44,7 +44,7 @@ export default function PlainPage() {
         <div style={styles.img} />
         <div style={styles.textWrap}>
           <div style={styles.text}>
-            <code>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores debitis, eveniet ipsam maiores minima repellat? Accusamus debitis, error et fugiat hic id incidunt neque nisi nulla odit perferendis qui quo quod recusandae rem veritatis voluptate. Autem blanditiis fuga harum temporibus totam. Culpa cum facere facilis inventore laborum, maxime perferendis quisquam ullam. Animi consequatur consequuntur corporis cumque deserunt dolorem excepturi exercitationem, expedita fuga iste iure maiores, minus nisi nulla numquam quia quo quod reprehenderit similique tempora tempore voluptas voluptatibus. Aliquid atque consequatur debitis eligendi eos facilis incidunt ipsa perferendis placeat quis! Culpa, inventore quae? Cum ducimus est excepturi expedita, itaque modi molestiae omnis porro repellendus rerum soluta, totam unde. Atque exercitationem odio pariatur sed ut. Beatae consequuntur inventore nisi numquam pariatur quae quisquam repudiandae tempore. Blanditiis consequatur culpa cumque, delectus doloremque dolorum eaque enim et id illum ipsam iure maxime nemo officia perferendis porro provident quibusdam quisquam recusandae repudiandae sint, veritatis.</code>
+            <code>Hello, my name is Mikhail Bahdashych. I'm web developer from Belarus, who lives in Poland now.</code>
           </div>
         </div>
       </div>

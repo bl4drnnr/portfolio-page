@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #202021;
+  /*background-color: #181919;*/
+  /*background-color: #131313;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   font-size: 19px;
+  color: white;
 }
 
 .main {
@@ -20,7 +24,7 @@ code {
 }
 
 .plainPage {
-  background-color: wheat;
+  background-color: #181919;
   width: 60%;
   height: 150vh;
   margin: 70vh auto 50px;
