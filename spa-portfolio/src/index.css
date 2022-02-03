@@ -64,13 +64,20 @@ p {
   width: 80%;
   background-color: #202021;
   height: 100px;
-  margin: 0 auto;
   border-radius: 20px;
-  transition: 1s;
+  transition: 0.5s;
+  display: flex;
+  margin: 0 auto 20px;
 }
 
 .peaceOfContent:hover {
-  box-shadow: 0 0 20px #ee9004;
+  box-shadow: 0 0 15px #ee9004;
   transform: scale(1.025);
   cursor: pointer;
 }
+
+h2, h4 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: white;
+}
+

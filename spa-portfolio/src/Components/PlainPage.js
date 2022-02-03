@@ -47,13 +47,19 @@ const styles = {
 }
 
 export default function PlainPage() {
-  const contactItems = [{}, {}, {}]
+  const contactItems = [
+    { id: 1, title: 'Discord', info: 'My discord tag: bl4drnnr#6177', img: '' },
+    { id: 2, title: 'GitHub', info: 'Here you can find source code of my projects', img: '' },
+    { id: 3, title: 'Telegram', info: 'Alternative way to find me', img: '' }
+  ]
+  const projectItems = [{}, {}, {}]
+  const contactItemsSecond = [{}, {}, {}]
   return (
     <div className="plainPage">
       <div style={styles.aboutMe}>
         <div style={styles.img}>
           <div style={styles.content}>
-            <Content />
+            <Content content={contactItems}/>
           </div>
         </div>
         <div style={styles.textWrap}>
@@ -71,10 +77,18 @@ export default function PlainPage() {
             <code><span className="begin">Here</span> is the list of my projects. I will do my best to make this list longer and longer...</code>
           </div>
         </div>
-        <div style={styles.imgRight} />
+        <div style={styles.imgRight}>
+          <div style={styles.content}>
+            <Content content={contactItems}/>
+          </div>
+        </div>
       </div>
       <div style={styles.contact}>
-        <div style={styles.imgBottom} />
+        <div style={styles.imgBottom}>
+          <div style={styles.content}>
+            <Content content={contactItems}/>
+          </div>
+        </div>
         <div style={styles.textWrap}>
           <div style={styles.text}>
             <code><span className="begin">And</span> here is the list of places where you can find and text me, feel free to do it, I'll be glad to receive any feedback.</code>
