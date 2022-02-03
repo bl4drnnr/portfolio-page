@@ -24,6 +24,8 @@ code {
   width: 60%;
   height: 150vh;
   margin: 70vh auto 50px;
+  border-radius: 65px;
+  min-width: 600px;
 }
 
 p {

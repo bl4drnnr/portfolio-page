@@ -4,28 +4,27 @@ const styles = {
   aboutMe: {
     width: '100%',
     height: '50vh',
-    backgroundColor: 'green'
   },
   myProject: {
     width: '100%',
     height: '50vh',
-    backgroundColor: 'red'
   },
   contact: {
     width: '100%',
     height: '50vh',
-    backgroundColor: 'blue'
   },
   img: {
     width: '50%',
     height: '100%',
-    backgroundColor: 'lightpink'
+    backgroundColor: 'lightpink',
+    borderRadius: '65px'
   },
   imgRight: {
     width: '50%',
     height: '100%',
     backgroundColor: 'lightpink',
-    float: 'right'
+    float: 'right',
+    borderRadius: '65px'
   }
 }
 
