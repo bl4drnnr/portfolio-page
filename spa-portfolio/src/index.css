@@ -76,8 +76,18 @@ p {
   cursor: pointer;
 }
 
-h2, h4 {
+h2 {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
   color: white;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: white;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
 }
 

@@ -48,9 +48,9 @@ const styles = {
 
 export default function PlainPage() {
   const contactItems = [
-    { id: 1, title: 'Discord', info: 'My discord tag: bl4drnnr#6177', img: '' },
-    { id: 2, title: 'GitHub', info: 'Here you can find source code of my projects', img: '' },
-    { id: 3, title: 'Telegram', info: 'Alternative way to find me', img: '' }
+    { id: 1, title: 'Discord', info: 'My discord tag: bl4drnnr#6177', img: require('../pics/discord.png') },
+    { id: 2, title: 'GitHub', info: 'Here you can find source code of my projects', img: require('../pics/github.png') },
+    { id: 3, title: 'Twitter', info: 'Nah... You won\'t find anything', img: require('../pics/twitter.png') }
   ]
   const projectItems = [{}, {}, {}]
   const contactItemsSecond = [{}, {}, {}]
