@@ -20,9 +20,9 @@ export default function Header() {
   return (
     <div style={styles.header}>
       <div style={styles.innerHeader}>
-        <p>About me</p>
-        <p>My projects</p>
-        <p>Contact</p>
+        <p className="headerAndFooterLinks">About me</p>
+        <p className="headerAndFooterLinks">My projects</p>
+        <p className="headerAndFooterLinks">Contact</p>
       </div>
     </div>
   )

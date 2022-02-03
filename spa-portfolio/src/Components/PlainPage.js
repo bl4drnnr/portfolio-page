@@ -79,14 +79,14 @@ export default function PlainPage() {
         </div>
         <div style={styles.imgRight}>
           <div style={styles.content}>
-            <Content content={contactItems}/>
+            <Content content={projectItems}/>
           </div>
         </div>
       </div>
       <div style={styles.contact}>
         <div style={styles.imgBottom}>
           <div style={styles.content}>
-            <Content content={contactItems}/>
+            <Content content={contactItemsSecond}/>
           </div>
         </div>
         <div style={styles.textWrap}>
