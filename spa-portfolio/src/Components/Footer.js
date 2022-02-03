@@ -28,12 +28,12 @@ export default function Footer() {
     <div style={styles.footer}>
       <div style={styles.innerFooter}>
         <div style={styles.links}>
-          <p>About me</p>
-          <p>My projects</p>
-          <p>Contact</p>
+          <p className="footerText">About me</p>
+          <p className="footerText">My projects</p>
+          <p className="footerText">Contact</p>
         </div>
         <div style={styles.copyright}>
-          <p>All rights reserved</p>
+          <p className="footerText">All rights reserved</p>
         </div>
       </div>
     </div>
