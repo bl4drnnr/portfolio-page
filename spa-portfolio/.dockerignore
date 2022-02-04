@@ -36,6 +36,11 @@ spa-portfolio/build/Release
 
 # Dependency directories
 node_modules/
+Dockerfile
+.git
+.gitignore
+.dockerignore
+
 spa-portfolio/node_modules/
 jspm_packages/
 
@@ -59,9 +64,11 @@ spa-portfolio/.eslintcache
 
 # dotenv environment variables file
 spa-portfolio/.env
+.env
 
 # parcel-bundler cache (https://parceljs.org/)
 spa-portfolio/.cache
+.cache
 
 # next.js build output
 .next
@@ -95,4 +102,3 @@ spa-portfolio/.DS_Store
 spa-portfolio/package-lock.json
 package-lock.json/
 
-README.md
