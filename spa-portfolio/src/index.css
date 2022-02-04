@@ -26,11 +26,13 @@ code {
 
 .plainPage {
   top: 75%;
-  left: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   position: absolute;
   background-color: #181919;
   width: 60%;
-  margin: 0 auto;
   border-radius: 65px;
   min-width: 1200px;
   transition: 0.5s;
