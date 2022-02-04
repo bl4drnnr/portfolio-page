@@ -4,7 +4,9 @@ const styles = {
   footer: {
     width: '100%',
     backgroundColor: '#131313',
-    height: '75px',
+    position: 'absolute',
+    marginTop: 'calc(150vh + 75px)',
+    zIndex: '2'
   },
   innerFooter: {
     margin: '0 auto',

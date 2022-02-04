@@ -7,8 +7,8 @@ function App() {
     <div>
       <Header />
       <div className="main" />
-      <PlainPage />
       <Footer />
+      <PlainPage />
     </div>
   );
 }
