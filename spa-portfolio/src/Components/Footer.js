@@ -5,7 +5,7 @@ const styles = {
     width: '100%',
     backgroundColor: '#131313',
     position: 'absolute',
-    marginTop: 'calc(150vh + 75px)',
+    marginTop: 'calc(150vh)',
     zIndex: '2'
   },
   innerFooter: {

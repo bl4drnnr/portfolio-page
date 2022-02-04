@@ -34,12 +34,7 @@ code {
   border-radius: 65px;
   min-width: 1200px;
   transition: 0.5s;
-  box-shadow: 0 0 25px #fff;
   z-index: 1
-}
-
-.plainPage:hover {
-  box-shadow: 0 0 50px #038a03;
 }
 
 p {
@@ -84,7 +79,7 @@ p {
 }
 
 .peaceOfContent:hover {
-  box-shadow: 0 0 15px #ee9004;
+  box-shadow: 0 0 15px #fff;
   transform: scale(1.025);
   cursor: pointer;
 }
