@@ -3,7 +3,6 @@ import React from "react";
 const styles = {
   header: {
     width: '100%',
-    backgroundColor: '#131313',
     height: '75px',
     position: 'absolute',
   },
