@@ -1,11 +1,10 @@
-FROM node
-
+FROM node as spa-build
 WORKDIR /spa-portfolio
-
-COPY package.json ./
-
+COPY package.json .
 RUN npm install
+COPY . .
+RUN npm run build
 
-COPY . ./
 
-CMD ["npm", "start"]
+FROM nginx
+COPY --from=spa-build /spa-portfolio/build /usr/share/nginx/html
