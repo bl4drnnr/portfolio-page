@@ -7,4 +7,3 @@ services:
     container_name: spaportfolio
     ports:
       - "80:80"
-
