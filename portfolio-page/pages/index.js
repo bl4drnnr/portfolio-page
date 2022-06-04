@@ -28,7 +28,7 @@ export default function Home() {
           <h1>Mikhail Bahdashych</h1>
           <h3>Full Stack Web Developer / Cybersecurity engineer</h3>
           <p>
-            <Link href={''}><a>GitHub</a></Link> / <Link href={''}><a>LinkedIn</a></Link> / <Link href={''}><a>Twitter</a></Link> / <Link href={''}><a>Discord</a></Link>
+            <Link href={'https://github.com/bl4drnnr'}><a>GitHub</a></Link> / <Link href={'https://www.linkedin.com/in/mikhail-bahdashych-a8561a209/'}><a>LinkedIn</a></Link> / <Link href={'https://twitter.com/bl4drnnr'}><a>Twitter</a></Link> / <span className={'link'}>Discord</span>
           </p>
         </div>
 

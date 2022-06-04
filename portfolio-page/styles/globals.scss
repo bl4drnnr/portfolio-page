@@ -15,11 +15,12 @@ p, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-a {
+.link, a {
   text-decoration: none;
   color: greenyellow;
+  cursor: pointer;
 }
-a:hover {
+.link:hover, a:hover {
   text-decoration-line: underline;
   text-decoration-style: solid;
   text-decoration-color: greenyellow;
