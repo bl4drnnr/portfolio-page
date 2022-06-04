@@ -4,3 +4,32 @@ spa-portfolio/.idea
 spa-portfolio/.DS_Store
 spa-portfolio/build
 spa-portfolio/node_modules
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+spa-portfolio/.pnp
+spa-portfolio/.pnp.js
+
+# testing
+spa-portfolio/coverage
+
+# next.js
+spa-portfolio/.next/
+spa-portfolio/out/
+
+# misc
+spa-portfolio/*.pem
+
+# debug
+spa-portfolio/npm-debug.log*
+spa-portfolio/yarn-debug.log*
+spa-portfolio/yarn-error.log*
+spa-portfolio/.pnpm-debug.log*
+
+# local env files
+spa-portfolio/.env*.local
+
+# vercel
+spa-portfolio/.vercel
