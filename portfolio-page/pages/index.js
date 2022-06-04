@@ -57,6 +57,8 @@ export default function Home() {
               </li>
               <li>Were touched:
                 <span className={styles.badge}><Image src="/java.svg" width={77} height={28} /></span>
+                <span className={styles.badge}><Image src="/dart.svg" width={79} height={28} /></span>
+                <span className={styles.badge}><Image src="/swift.svg" width={87} height={28} /></span>
               </li>
             </ol>
           </div>
@@ -67,43 +69,46 @@ export default function Home() {
               <li>Primary stack:
                 <span className={styles.badge}><Image src="/node.svg" width={101} height={28} /></span>
                 <span className={styles.badge}><Image src="/vue.svg" width={85} height={28} /></span>
-                <span className={styles.badge}><Image src="/react.svg" width={85} height={28} /></span>
+                <span className={styles.badge}><Image src="/nuxt.svg" width={80} height={28} /></span>
+                <span className={styles.badge}><Image src="/express.svg" width={122} height={28} /></span>
               </li>
-              <li>Secondary stack:</li>
-              <li>Were touched:</li>
-            </ol>
-          </div>
-
-          <span className={styles.post}><h3 className={'bold300'}>DevOps:</h3></span>
-          <div className={styles.techList}>
-            <ol>
-              <li>Primary stack</li>
-              <li>Secondary stack</li>
-              <li>Were touched</li>
+              <li>Secondary stack:
+                <span className={styles.badge}><Image src="/react.svg" width={85} height={28} /></span>
+                <span className={styles.badge}><Image src="/next.svg" width={78} height={28} /></span>
+                <span className={styles.badge}><Image src="/nest.svg" width={92} height={28} /></span>
+              </li>
+              <li>Were touched:
+                <span className={styles.badge}><Image src="/flutter.svg" width={101} height={28} /></span>
+                <span className={styles.badge}>
+                  <Image src="/flask.svg" width={82} height={28} />
+                </span>
+                <span className={styles.badge}>
+                  <Image src="/django.svg" width={98} height={28} />
+                </span>
+              </li>
             </ol>
           </div>
 
           <span className={styles.post}><h3 className={'bold300'}>Other technologies:</h3></span>
+          <div className={styles.techList}>
+            <Image src="/docker.svg" width={98} height={28} />
+            <Image src="/aws.svg" width={74} height={28} />
+            <Image src="/azure.svg" width={87} height={28} />
+            <Image src="/firebase.svg" width={109} height={28} />
+            <Image src="/netlify.svg" width={100} height={28} />
+            <Image src="/yarn.svg" width={80} height={28} />
+            <Image src="/npm.svg" width={73} height={28} />
+            <Image src="/latex.svg" width={85} height={28} />
+            <Image src="/jwt.svg" width={71} height={28} />
+          </div>
 
-          <Image src="/sequalize.svg" width={117} height={28} />
-          <Image src="/prisma.svg" width={95} height={28} />
-          <Image src="/yarn.svg" width={80} height={28} />
-          <Image src="/latex.svg" width={85} height={28} />
-          <Image src="/dart.svg" width={79} height={28} />
-          <Image src="/swift.svg" width={87} height={28} />
-          <Image src="/flutter.svg" width={101} height={28} />
-          <Image src="/flask.svg" width={82} height={28} />
-          <Image src="/nuxt.svg" width={80} height={28} />
-          <Image src="/next.svg" width={78} height={28} />
-          <Image src="/nest.svg" width={92} height={28} />
-          <Image src="/npm.svg" width={73} height={28} />
-          <Image src="/jwt.svg" width={71} height={28} />
-          <Image src="/express.svg" width={122} height={28} />
-          <Image src="/aws.svg" width={74} height={28} />
-          <Image src="/azure.svg" width={87} height={28} />
-          <Image src="/firebase.svg" width={109} height={28} />
-          <Image src="/netlify.svg" width={100} height={28} />
-          <Image src="/docker.svg" width={98} height={28} />
+          <span className={styles.post}><h3 className={'bold300'}>ORM's:</h3></span>
+          <div className={styles.techList}>
+            <Image src="/sequalize.svg" width={117} height={28} />
+            <Image src="/prisma.svg" width={95} height={28} />
+            <span className={styles.badge}><Image src="/hibernate.png" width={100} height={28} /></span>
+          </div>
+
           <h1>My projects</h1>
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
