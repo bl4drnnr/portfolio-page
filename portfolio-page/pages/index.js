@@ -5,6 +5,7 @@ import Project from "../components/Project"
 import Technologies from "../components/Technologies"
 import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
 
@@ -198,8 +199,17 @@ export default function Home() {
 
         <div className={styles.welcomeContainer}>
           <div className={styles.welcomeTexts}>
-            <h1>THE FUTURE IS HERE. THE FUTURE IS NOW.</h1>
-            <h2>Harder, Better, Faster, Stronger</h2>
+            <h1>
+              <Typewriter
+                options={{
+                  strings: ['THE FUTURE IS HERE. THE FUTURE IS NOW.'],
+                  delay: 80,
+                  autoStart: true,
+                  loop: true,
+
+                }}
+              />
+            </h1>
           </div>
         </div>
 
@@ -210,8 +220,20 @@ export default function Home() {
         </div>
 
         <div className={styles.infoContainer}>
-          <h1>Mikhail Bahdashych</h1>
-          <h3>Full Stack Web Developer / Cybersecurity engineer</h3>
+          <h1>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('Mikhail Bahdashych').start();
+              }}
+            />
+          </h1>
+          <h3>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('Full Stack Web Developer / Cybersecurity engineer').start();
+              }}
+            />
+          </h3>
           <p>
             <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"}>Discord</span>
           </p>
