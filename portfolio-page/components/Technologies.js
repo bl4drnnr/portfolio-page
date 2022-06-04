@@ -88,6 +88,81 @@ export default function Technologies() {
         w: 98,
         h: 28
       }]
+    },
+    "Other technologies:": {
+      "DevOps:": [{
+        name: "/docker.svg",
+        w: 98,
+        h: 28
+      }, {
+        name: "/aws.svg",
+        w: 74,
+        h: 28
+      }, {
+        name: "/azure.svg",
+        w: 87,
+        h: 28
+      }, {
+        name: "/firebase.svg",
+        w: 109,
+        h: 28
+      }, {
+        name: "/netlify.svg",
+        w: 100,
+        h: 28
+      }],
+      "Databases:": [{
+        name: "/mssql.svg",
+        w: 200,
+        h: 28
+      }, {
+        name: "/mongo.svg",
+        w: 110,
+        h: 28
+      }, {
+        name: "/mysql.svg",
+        w: 88,
+        h: 28
+      }, {
+        name: "/postgres.svg",
+        w: 113,
+        h: 28
+      }, {
+        name: "/sqlite.svg",
+        w: 92,
+        h: 28
+      }],
+      "ORM's:": [{
+        name: "/sequalize.svg",
+        w: 117,
+        h: 28
+      }, {
+        name: "/prisma.svg",
+        w: 95,
+        h: 28
+      }, {
+        name: "/hibernate.png",
+        w: 100,
+        h: 28
+      }],
+      "Package managers:": [{
+        name: "/yarn.svg",
+        w: 80,
+        h: 28
+      }, {
+        name: "/npm.svg",
+        w: 73,
+        h: 28
+      }],
+      "Other:": [{
+        name: "/latex.svg",
+        w: 85,
+        h: 28
+      }, {
+        name: "/jwt.svg",
+        w: 71,
+        h: 28
+      }],
     }
   }
 

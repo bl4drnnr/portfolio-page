@@ -45,26 +45,6 @@ export default function Home() {
 
           <Technologies />
 
-          <span className={styles.post}><h3 className={'bold300'}>Other technologies:</h3></span>
-          <div className={styles.techList}>
-            <Image src="/docker.svg" width={98} height={28} />
-            <Image src="/aws.svg" width={74} height={28} />
-            <Image src="/azure.svg" width={87} height={28} />
-            <Image src="/firebase.svg" width={109} height={28} />
-            <Image src="/netlify.svg" width={100} height={28} />
-            <Image src="/yarn.svg" width={80} height={28} />
-            <Image src="/npm.svg" width={73} height={28} />
-            <Image src="/latex.svg" width={85} height={28} />
-            <Image src="/jwt.svg" width={71} height={28} />
-          </div>
-
-          <span className={styles.post}><h3 className={'bold300'}>ORM's:</h3></span>
-          <div className={styles.techList}>
-            <Image src="/sequalize.svg" width={117} height={28} />
-            <Image src="/prisma.svg" width={95} height={28} />
-            <span className={styles.badge}><Image src="/hibernate.png" width={100} height={28} /></span>
-          </div>
-
           <h1>My projects</h1>
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
