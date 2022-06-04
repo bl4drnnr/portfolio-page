@@ -3,14 +3,33 @@
   p {
     color: black;
   }
+
 }
 
 .contactFields {
   width: 100%;
+  text-align: center;
+
+  p {
+    color: black;
+  }
+
   .inputs {
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .textAreaField {
+    overflow: auto;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: rgba(0, 0, 0, .65);
+    padding: 15px;
+    font-family: "Arial", sans-serif;
+    width: 450px;
+    height: 200px;
   }
 }

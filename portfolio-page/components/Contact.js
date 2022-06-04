@@ -15,7 +15,8 @@ export default function Contact() {
           <Input title={"Your name"} />
           <Input title={"Title"} />
         </div>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <p>Message</p>
+        <textarea className={styles.textAreaField}></textarea>
       </div>
     </div>
   )
