@@ -19,6 +19,9 @@ p, h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: greenyellow;
   cursor: pointer;
+  &.blue {
+    color: dodgerblue;
+  }
 }
 .link:hover, a:hover {
   text-decoration-line: underline;
@@ -26,4 +29,7 @@ p, h1, h2, h3, h4, h5, h6 {
   text-decoration-color: greenyellow;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+  &.blue {
+    text-decoration-color: dodgerblue;
+  }
 }
