@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Mikhail Bahdashych | Portfolio Page</title>
         <meta name="description" content="Mikhail Bahdashych Portfolio Page" />
