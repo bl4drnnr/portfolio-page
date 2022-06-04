@@ -29,7 +29,7 @@ export default function Home() {
           <h1>Mikhail Bahdashych</h1>
           <h3>Full Stack Web Developer / Cybersecurity engineer</h3>
           <p>
-            <Link href={"https://github.com/bl4drnnr"}><a>GitHub</a></Link> / <Link href={"https://www.linkedin.com/in/mikhail-bahdashych-a8561a209/"}><a>LinkedIn</a></Link> / <Link href={"https://twitter.com/bl4drnnr"}><a>Twitter</a></Link> / <span className={"link"}>Discord</span>
+            <Link href={"https://github.com/bl4drnnr"}><a target="_blank">GitHub</a></Link> / <Link href={"https://www.linkedin.com/in/mikhail-bahdashych-a8561a209/"}><a target="_blank">LinkedIn</a></Link> / <Link href={"https://twitter.com/bl4drnnr"}><a target="_blank">Twitter</a></Link> / <span className={"link"}>Discord</span>
           </p>
         </div>
 
@@ -44,9 +44,9 @@ export default function Home() {
           <h1>My projects</h1>
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
-            <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} />
-            <Project name={"PCM - Pocket Crypto Market"} />
-            <Project name={"Forum"} />
+            <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} link={"https://github.com/bl4drnnr/portfolio-page"} />
+            <Project name={"PCM - Pocket Crypto Market"} description={"Telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={"https://github.com/bl4drnnr/PCM-pocket-crypto-market"} />
+            <Project name={"Forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={"https://github.com/bl4drnnr/Pentester-note-blog-front"} />
           </div>
           <h1>Ways to contact me</h1>
           <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>

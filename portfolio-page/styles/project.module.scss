@@ -5,9 +5,21 @@
   border-radius: 8px;
   margin: 10px;
   padding: 25px;
+  position: relative;
 
   p, h3 {
     color: black;
     margin: 0;
+  }
+
+  .description {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .more {
+    bottom: 20px;
+    position: absolute;
   }
 }
