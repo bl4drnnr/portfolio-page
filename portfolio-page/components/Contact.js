@@ -17,6 +17,7 @@ export default function Contact() {
         </div>
         <p>Message</p>
         <textarea className={styles.textAreaField}></textarea>
+        <button className={styles.sendMessageButton}>SEND MESSAGE</button>
       </div>
     </div>
   )

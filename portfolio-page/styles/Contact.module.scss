@@ -31,5 +31,29 @@
     font-family: "Arial", sans-serif;
     width: 450px;
     height: 200px;
+    margin-bottom: 15px;
   }
+
+  .textAreaField:focus {
+    border: 1px solid rgba(dodgerblue, .5);
+  }
+
+
+  .sendMessageButton {
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    border: none;
+    background: #0070f3;
+    color: white;
+    border-radius: 7px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    padding: 0 3.5rem;
+    line-height: 2.8rem;
+  }
+
 }
