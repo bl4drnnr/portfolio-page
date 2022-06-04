@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className={styles.infoContainer}>
           <h1>Mikhail Bahdashych</h1>
-          <h4>Full Stack Web Developer / Cybersecurity engineer</h4>
+          <p>Full Stack Web Developer / Cybersecurity engineer</p>
         </div>
 
       </main>
@@ -35,7 +35,7 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        Powered by{' '}
+        <p className={styles.poweredBy}>Powered by{' '}</p>
         <span>
             <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
           </span>
