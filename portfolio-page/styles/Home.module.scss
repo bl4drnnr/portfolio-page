@@ -51,7 +51,7 @@
   background: #fff;
   width: 100%;
 
-  .post, h1 {
+  .post, h1, h3 {
     color: black;
   }
   .post {
@@ -66,10 +66,19 @@
     .projectBox {
       display: flex;
     }
+
+    .techList {
+      margin-left: 50px;
+
+      .badge {
+        margin-left: 5px;
+      }
+    }
   }
 }
 
 .footer {
+  height: 100px;
   text-align: center;
   display: flex;
   justify-content: center;

@@ -40,19 +40,60 @@ export default function Home() {
           <h1>About me</h1>
           <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
           <h1>ToolBox</h1>
-          <p className={styles.post}>Here is the list of <span className={'bold'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with / or even just "touched":</p>
-          <Image src="/vue.svg" width={85} height={28} />
-          <Image src="/react.svg" width={85} height={28} />
-          <Image src="/js.svg" width={126} height={28} />
-          <Image src="/python.svg" width={97} height={28} />
-          <Image src="/ts.svg" width={126} height={28} />
-          <Image src="/html5.svg" width={88} height={28} />
+          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with / or even just "touched":</p>
+
+          <span className={styles.post}><h3 className={'bold300'}>Programming languages:</h3></span>
+          <div className={styles.techList}>
+            <ol>
+              <li>Primary stack:
+                <span className={styles.badge}><Image src="/js.svg" width={126} height={28} /></span>
+                <span className={styles.badge}><Image src="/ts.svg" width={126} height={28} /></span>
+                <span className={styles.badge}><Image src="/html5.svg" width={88} height={28} /></span>
+                <span className={styles.badge}><Image src="/css.svg" width={77} height={28} /></span>
+              </li>
+              <li>Secondary stack:
+                <span className={styles.badge}><Image src="/python.svg" width={97} height={28} /></span>
+                <span className={styles.badge}><Image src="/csharp.svg" width={61} height={28} /></span>
+              </li>
+              <li>Were touched:
+                <span className={styles.badge}><Image src="/java.svg" width={77} height={28} /></span>
+              </li>
+            </ol>
+          </div>
+
+          <span className={styles.post}><h3 className={'bold300'}>Frameworks:</h3></span>
+          <div className={styles.techList}>
+            <ol>
+              <li>Primary stack:
+                <span className={styles.badge}><Image src="/node.svg" width={101} height={28} /></span>
+                <span className={styles.badge}><Image src="/vue.svg" width={85} height={28} /></span>
+                <span className={styles.badge}><Image src="/react.svg" width={85} height={28} /></span>
+              </li>
+              <li>Secondary stack:</li>
+              <li>Were touched:</li>
+            </ol>
+          </div>
+
+          <span className={styles.post}><h3 className={'bold300'}>DevOps:</h3></span>
+          <div className={styles.techList}>
+            <ol>
+              <li>Primary stack</li>
+              <li>Secondary stack</li>
+              <li>Were touched</li>
+            </ol>
+          </div>
+
+          <span className={styles.post}><h3 className={'bold300'}>Other technologies:</h3></span>
+
+          <Image src="/sequalize.svg" width={117} height={28} />
+          <Image src="/prisma.svg" width={95} height={28} />
+          <Image src="/yarn.svg" width={80} height={28} />
+          <Image src="/latex.svg" width={85} height={28} />
           <Image src="/dart.svg" width={79} height={28} />
           <Image src="/swift.svg" width={87} height={28} />
           <Image src="/flutter.svg" width={101} height={28} />
           <Image src="/flask.svg" width={82} height={28} />
           <Image src="/nuxt.svg" width={80} height={28} />
-          <Image src="/node.svg" width={101} height={28} />
           <Image src="/next.svg" width={78} height={28} />
           <Image src="/nest.svg" width={92} height={28} />
           <Image src="/npm.svg" width={73} height={28} />
