@@ -14,3 +14,15 @@ body {
 p, h1, h2, h3, h4, h5, h6 {
   color: white;
 }
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+a:hover {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: dodgerblue;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
