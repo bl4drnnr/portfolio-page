@@ -2,7 +2,8 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 import Project from "../components/Project"
-import Technologies from "../components/Technologies";
+import Technologies from "../components/Technologies"
+import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
 
 export default function Home() {
@@ -51,6 +52,7 @@ export default function Home() {
 
       <div className={styles.contentContainer}>
         <div className={styles.contentBox}>
+
           <h1>About me</h1>
           <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
           <h1>ToolBox</h1>
@@ -65,8 +67,12 @@ export default function Home() {
             <Project name={"PCM - Pocket Crypto Market"} description={"Telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
             <Project name={"Forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={projectLinks.forum} />
           </div>
+
           <h1>Ways to contact me</h1>
           <p className={styles.post}>In case if you want to contact me, use this form or text my directly wherever you want (see my social media above), or text me directly on this email:</p>
+
+          <Contact />
+
         </div>
       </div>
 
@@ -74,8 +80,8 @@ export default function Home() {
       <footer className={styles.footer}>
         <p className={styles.poweredBy}>Powered by{" "}</p>
         <span>
-            <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
-          </span>
+          <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
+        </span>
       </footer>
 
     </div>

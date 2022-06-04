@@ -90,27 +90,6 @@ export default function Technologies() {
       }]
     },
     "Other technologies:": {
-      "DevOps:": [{
-        name: "/docker.svg",
-        w: 98,
-        h: 28
-      }, {
-        name: "/aws.svg",
-        w: 74,
-        h: 28
-      }, {
-        name: "/azure.svg",
-        w: 87,
-        h: 28
-      }, {
-        name: "/firebase.svg",
-        w: 109,
-        h: 28
-      }, {
-        name: "/netlify.svg",
-        w: 100,
-        h: 28
-      }],
       "Databases:": [{
         name: "/mssql.svg",
         w: 200,
@@ -132,6 +111,27 @@ export default function Technologies() {
         w: 92,
         h: 28
       }],
+      "DevOps:": [{
+        name: "/docker.svg",
+        w: 98,
+        h: 28
+      }, {
+        name: "/aws.svg",
+        w: 74,
+        h: 28
+      }, {
+        name: "/azure.svg",
+        w: 87,
+        h: 28
+      }, {
+        name: "/firebase.svg",
+        w: 109,
+        h: 28
+      }, {
+        name: "/netlify.svg",
+        w: 100,
+        h: 28
+      }],
       "ORM's:": [{
         name: "/sequalize.svg",
         w: 117,
@@ -142,7 +142,7 @@ export default function Technologies() {
         h: 28
       }, {
         name: "/hibernate.svg",
-        w: 80,
+        w: 70,
         h: 28
       }],
       "Package managers:": [{
