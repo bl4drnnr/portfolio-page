@@ -14,7 +14,10 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
+        <div className={styles.avatar}>
+          <Image src="/ava.jpeg" alt="Ava" width={300} height={300} />
+        </div>
+        <div className={styles.content}></div>
       </main>
 
       <footer className={styles.footer}>
