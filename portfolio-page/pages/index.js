@@ -2,6 +2,7 @@ import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
 import Project from "../components/Project"
+import Technologies from "../components/Technologies";
 import styles from "../styles/Home.module.scss"
 
 export default function Home() {
@@ -42,52 +43,7 @@ export default function Home() {
           <h1>ToolBox</h1>
           <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with / or even just "touched":</p>
 
-          <span className={styles.post}><h3 className={'bold300'}>Programming languages:</h3></span>
-          <div className={styles.techList}>
-            <ol>
-              <li>Primary stack:
-                <span className={styles.badge}><Image src="/js.svg" width={126} height={28} /></span>
-                <span className={styles.badge}><Image src="/ts.svg" width={126} height={28} /></span>
-                <span className={styles.badge}><Image src="/html5.svg" width={88} height={28} /></span>
-                <span className={styles.badge}><Image src="/css.svg" width={77} height={28} /></span>
-              </li>
-              <li>Secondary stack:
-                <span className={styles.badge}><Image src="/python.svg" width={97} height={28} /></span>
-                <span className={styles.badge}><Image src="/csharp.svg" width={61} height={28} /></span>
-              </li>
-              <li>Were touched:
-                <span className={styles.badge}><Image src="/java.svg" width={77} height={28} /></span>
-                <span className={styles.badge}><Image src="/dart.svg" width={79} height={28} /></span>
-                <span className={styles.badge}><Image src="/swift.svg" width={87} height={28} /></span>
-              </li>
-            </ol>
-          </div>
-
-          <span className={styles.post}><h3 className={'bold300'}>Frameworks:</h3></span>
-          <div className={styles.techList}>
-            <ol>
-              <li>Primary stack:
-                <span className={styles.badge}><Image src="/node.svg" width={101} height={28} /></span>
-                <span className={styles.badge}><Image src="/vue.svg" width={85} height={28} /></span>
-                <span className={styles.badge}><Image src="/nuxt.svg" width={80} height={28} /></span>
-                <span className={styles.badge}><Image src="/express.svg" width={122} height={28} /></span>
-              </li>
-              <li>Secondary stack:
-                <span className={styles.badge}><Image src="/react.svg" width={85} height={28} /></span>
-                <span className={styles.badge}><Image src="/next.svg" width={78} height={28} /></span>
-                <span className={styles.badge}><Image src="/nest.svg" width={92} height={28} /></span>
-              </li>
-              <li>Were touched:
-                <span className={styles.badge}><Image src="/flutter.svg" width={101} height={28} /></span>
-                <span className={styles.badge}>
-                  <Image src="/flask.svg" width={82} height={28} />
-                </span>
-                <span className={styles.badge}>
-                  <Image src="/django.svg" width={98} height={28} />
-                </span>
-              </li>
-            </ol>
-          </div>
+          <Technologies />
 
           <span className={styles.post}><h3 className={'bold300'}>Other technologies:</h3></span>
           <div className={styles.techList}>
