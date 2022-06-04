@@ -196,7 +196,12 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <div className={styles.welcomeContainer}></div>
+        <div className={styles.welcomeContainer}>
+          <div className={styles.welcomeTexts}>
+            <h1>THE FUTURE IS HERE. THE FUTURE IS NOW.</h1>
+            <h2>Harder, Better, Faster, Stronger</h2>
+          </div>
+        </div>
 
         <div className={styles.avatarContainer}>
           <div className={styles.avatarBox}>
