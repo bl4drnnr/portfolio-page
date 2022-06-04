@@ -13,7 +13,7 @@ export default function Contact() {
       <div className={styles.contactFields}>
         <div className={styles.inputs}>
           <Input title={"Your name"} />
-          <Input title={"Title"} />
+          <Input title={"Message title"} />
         </div>
         <p>Message</p>
         <textarea className={styles.textAreaField}></textarea>
