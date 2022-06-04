@@ -25,12 +25,21 @@ export default function Home() {
 
         <div className={styles.infoContainer}>
           <h1>Mikhail Bahdashych</h1>
-          <p>Full Stack Web Developer / Cybersecurity engineer</p>
+          <h3>Full Stack Web Developer / Cybersecurity engineer</h3>
+          <p>GitHub / LinkedIn / Twitter / Discord</p>
         </div>
 
       </main>
 
       <div className={styles.contentContainer}>
+        <div className={styles.contentBox}>
+          <h1>About me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+          <h1>My projects</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+          <h1>Ways to contact me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+        </div>
       </div>
 
 
