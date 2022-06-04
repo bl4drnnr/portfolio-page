@@ -53,7 +53,7 @@ export default function Home() {
             <Project name={"Forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={"https://github.com/bl4drnnr/Pentester-note-blog-front"} />
           </div>
           <h1>Ways to contact me</h1>
-          <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+          <p className={styles.post}>In case if you want to contact me, use this form or text my directly wherever you want (), or text me directly on this email:</p>
         </div>
       </div>
 
