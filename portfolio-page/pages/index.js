@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Link from "next/link"
 import Image from "next/image"
+import Project from "../components/Project"
 import styles from "../styles/Home.module.scss"
 
 export default function Home() {
@@ -38,8 +39,15 @@ export default function Home() {
         <div className={styles.contentBox}>
           <h1>About me</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
-          <h1>My projects</h1>
+          <h1>ToolBox</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+          <h1>My projects</h1>
+          <p>Below you can find a couple of my projects</p>
+          <div className={styles.projectBox}>
+            <Project />
+            <Project />
+            <Project />
+          </div>
           <h1>Ways to contact me</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
         </div>
