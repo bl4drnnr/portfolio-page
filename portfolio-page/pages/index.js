@@ -14,12 +14,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
         <div className={styles.welcomeContainer}></div>
+
         <div className={styles.avatarContainer}>
           <Image src="/ava.jpeg" alt="Ava" width={350} height={350} className={styles.avatar} />
         </div>
-        <div className={styles.content}></div>
+
       </main>
+
+      <div className={styles.contentContainer}>
+      </div>
+
 
       {/*<footer className={styles.footer}>*/}
       {/*  <a*/}
