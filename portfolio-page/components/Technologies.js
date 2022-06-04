@@ -141,8 +141,8 @@ export default function Technologies() {
         w: 95,
         h: 28
       }, {
-        name: "/hibernate.png",
-        w: 100,
+        name: "/hibernate.svg",
+        w: 80,
         h: 28
       }],
       "Package managers:": [{
