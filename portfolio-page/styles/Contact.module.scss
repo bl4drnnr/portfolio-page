@@ -8,6 +8,9 @@
 .contactFields {
   width: 100%;
   .inputs {
-    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
