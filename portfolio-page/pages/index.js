@@ -19,8 +19,13 @@ export default function Home() {
 
         <div className={styles.avatarContainer}>
           <div className={styles.avatarBox}>
-            <Image src="/ava.jpeg" alt="Ava" width={350} height={350} className={styles.avatar} />
+            <Image src="/ava.jpeg" alt="Ava" width={300} height={300} className={styles.avatar} />
           </div>
+        </div>
+
+        <div className={styles.infoContainer}>
+          <h1>Mikhail Bahdashych</h1>
+          <h4>Full Stack Web Developer / Cybersecurity engineer</h4>
         </div>
 
       </main>
@@ -29,18 +34,12 @@ export default function Home() {
       </div>
 
 
-      {/*<footer className={styles.footer}>*/}
-      {/*  <a*/}
-      {/*    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"*/}
-      {/*    target="_blank"*/}
-      {/*    rel="noopener noreferrer"*/}
-      {/*  >*/}
-      {/*    Powered by{' '}*/}
-      {/*    <span className={styles.logo}>*/}
-      {/*      <Image src="/nextjslogo.png" alt="Vercel Logo" width={80} height={48} />*/}
-      {/*    </span>*/}
-      {/*  </a>*/}
-      {/*</footer>*/}
+      <footer className={styles.footer}>
+        Powered by{' '}
+        <span>
+            <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
+          </span>
+      </footer>
 
     </div>
   )
