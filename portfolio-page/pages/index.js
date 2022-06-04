@@ -18,7 +18,9 @@ export default function Home() {
         <div className={styles.welcomeContainer}></div>
 
         <div className={styles.avatarContainer}>
-          <Image src="/ava.jpeg" alt="Ava" width={350} height={350} className={styles.avatar} />
+          <div className={styles.avatarBox}>
+            <Image src="/ava.jpeg" alt="Ava" width={350} height={350} className={styles.avatar} />
+          </div>
         </div>
 
       </main>

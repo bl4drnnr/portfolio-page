@@ -19,11 +19,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
 
-    .avatar {
+    .avatarBox {
+      border: 3px solid white;
+      width: 350px;
+      height: 350px;
       border-radius: 50%;
+
+      .avatar {
+        border-radius: 50%;
+      }
     }
+
   }
 
 }
