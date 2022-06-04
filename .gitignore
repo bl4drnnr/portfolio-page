@@ -4,7 +4,7 @@ portfolio-page/.idea
 portfolio-page/.DS_Store
 portfolio-page/build
 portfolio-page/node_modules
-
+portfolio-page/package-lock.json
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
