@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Link from "next/link"
 import Image from "next/image"
 import styles from "../styles/Home.module.scss"
 
@@ -26,7 +27,9 @@ export default function Home() {
         <div className={styles.infoContainer}>
           <h1>Mikhail Bahdashych</h1>
           <h3>Full Stack Web Developer / Cybersecurity engineer</h3>
-          <p>GitHub / LinkedIn / Twitter / Discord</p>
+          <p>
+            <Link href={''}><a>GitHub</a></Link> / <Link href={''}><a>LinkedIn</a></Link> / <Link href={''}><a>Twitter</a></Link> / <Link href={''}><a>Discord</a></Link>
+          </p>
         </div>
 
       </main>
