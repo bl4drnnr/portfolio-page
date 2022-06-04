@@ -1,35 +1,35 @@
 .idea
 .DS_Store
-spa-portfolio/.idea
-spa-portfolio/.DS_Store
-spa-portfolio/build
-spa-portfolio/node_modules
+portfolio-page/.idea
+portfolio-page/.DS_Store
+portfolio-page/build
+portfolio-page/node_modules
 
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-spa-portfolio/.pnp
-spa-portfolio/.pnp.js
+portfolio-page/.pnp
+portfolio-page/.pnp.js
 
 # testing
-spa-portfolio/coverage
+portfolio-page/coverage
 
 # next.js
-spa-portfolio/.next/
-spa-portfolio/out/
+portfolio-page/.next/
+portfolio-page/out/
 
 # misc
 spa-portfolio/*.pem
 
 # debug
-spa-portfolio/npm-debug.log*
-spa-portfolio/yarn-debug.log*
-spa-portfolio/yarn-error.log*
-spa-portfolio/.pnpm-debug.log*
+portfolio-page/npm-debug.log*
+portfolio-page/yarn-debug.log*
+portfolio-page/yarn-error.log*
+portfolio-page/.pnpm-debug.log*
 
 # local env files
-spa-portfolio/.env*.local
+portfolio-page/.env*.local
 
 # vercel
-spa-portfolio/.vercel
+portfolio-page/.vercel
