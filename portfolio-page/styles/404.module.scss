@@ -1,0 +1,15 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+
+  .errors {
+    h1 {
+      margin: 0;
+    }
+    width: 100%;
+    height: 200px;
+    padding-top: 300px;
+    text-align: center;
+  }
+}

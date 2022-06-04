@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
+import Head from "next/head"
+import Image from "next/image"
+import styles from "../styles/Home.module.scss"
 
 export default function Home() {
   return (
@@ -44,7 +44,7 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        <p className={styles.poweredBy}>Powered by{' '}</p>
+        <p className={styles.poweredBy}>Powered by{" "}</p>
         <span>
             <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
           </span>
