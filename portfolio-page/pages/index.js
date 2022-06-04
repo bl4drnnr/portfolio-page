@@ -40,7 +40,29 @@ export default function Home() {
           <h1>About me</h1>
           <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
           <h1>ToolBox</h1>
-          <p className={styles.post}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur, cupiditate eius facilis, ipsa ipsum laudantium libero quae quod ratione recusandae rerum sint, soluta suscipit tempora vel voluptate voluptates. Blanditiis, doloremque est iste laborum laudantium nobis, perferendis quaerat sequi sint, sunt ut vel vitae. Cumque dolorem incidunt quos rem voluptas?</p>
+          <p className={styles.post}>Here is the list of <span className={'bold'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with / or even just "touched":</p>
+          <Image src="/vue.svg" width={85} height={28} />
+          <Image src="/react.svg" width={85} height={28} />
+          <Image src="/js.svg" width={126} height={28} />
+          <Image src="/python.svg" width={97} height={28} />
+          <Image src="/ts.svg" width={126} height={28} />
+          <Image src="/html5.svg" width={88} height={28} />
+          <Image src="/dart.svg" width={79} height={28} />
+          <Image src="/swift.svg" width={87} height={28} />
+          <Image src="/flutter.svg" width={101} height={28} />
+          <Image src="/flask.svg" width={82} height={28} />
+          <Image src="/nuxt.svg" width={80} height={28} />
+          <Image src="/node.svg" width={101} height={28} />
+          <Image src="/next.svg" width={78} height={28} />
+          <Image src="/nest.svg" width={92} height={28} />
+          <Image src="/npm.svg" width={73} height={28} />
+          <Image src="/jwt.svg" width={71} height={28} />
+          <Image src="/express.svg" width={122} height={28} />
+          <Image src="/aws.svg" width={74} height={28} />
+          <Image src="/azure.svg" width={87} height={28} />
+          <Image src="/firebase.svg" width={109} height={28} />
+          <Image src="/netlify.svg" width={100} height={28} />
+          <Image src="/docker.svg" width={98} height={28} />
           <h1>My projects</h1>
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
