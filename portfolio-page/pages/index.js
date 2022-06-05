@@ -201,12 +201,11 @@ export default function Home() {
           <div className={styles.welcomeTexts}>
             <h1>
               <Typewriter
+                onInit={(typewriter) => {
+                  typewriter.typeString('THE FUTURE IS HERE. THE FUTURE IS NOW.').start();
+                }}
                 options={{
-                  strings: ['THE FUTURE IS HERE. THE FUTURE IS NOW.'],
-                  delay: 80,
-                  autoStart: true,
-                  loop: true,
-
+                  delay: 100
                 }}
               />
             </h1>
@@ -225,12 +224,18 @@ export default function Home() {
               onInit={(typewriter) => {
                 typewriter.typeString('Mikhail Bahdashych').start();
               }}
+              options={{
+                delay: 175
+              }}
             />
           </h1>
           <h3>
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString('Full Stack Web Developer / Cybersecurity engineer').start();
+              }}
+              options={{
+                delay: 75
               }}
             />
           </h3>
