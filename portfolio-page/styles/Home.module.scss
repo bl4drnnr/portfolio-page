@@ -72,6 +72,10 @@
   background: #fff;
   width: 100%;
 
+  @media only screen and (max-width: 475px) {
+    width: 475px;
+  }
+
   .post, h1, h3 {
     color: black;
   }
