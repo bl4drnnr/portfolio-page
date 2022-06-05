@@ -10,6 +10,10 @@
   transition: .2s;
   cursor: pointer;
 
+  @media only screen and (max-width: 800px) {
+    margin: 0 auto 10px;
+  }
+
   p, h3 {
     color: black;
     margin: 0;

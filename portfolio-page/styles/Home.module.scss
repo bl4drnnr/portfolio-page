@@ -21,6 +21,9 @@
       h1 {
         margin: 0;
         font-size: 56px;
+        @media only screen and (max-width: 1000px) {
+            font-size: 32px;
+        }
       }
     }
   }
@@ -76,11 +79,19 @@
 
   .contentBox {
     height: 100%;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+
+    @media only screen and (max-width: 1000px) {
+      width: 90%;
+    }
 
     .projectBox {
       display: flex;
+
+      @media only screen and (max-width: 800px) {
+        display: block;
+      }
     }
 
     .techList {
