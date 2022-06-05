@@ -152,15 +152,6 @@ export default function Home() {
         w: 70,
         h: 28
       }],
-      "Package managers:": [{
-        name: "/yarn.svg",
-        w: 80,
-        h: 28
-      }, {
-        name: "/npm.svg",
-        w: 73,
-        h: 28
-      }],
       "Other:": [{
         name: "/latex.svg",
         w: 85,
