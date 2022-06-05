@@ -32,6 +32,10 @@
     width: 450px;
     height: 200px;
     margin-bottom: 15px;
+
+    @media only screen and (max-width: 475px) {
+      width: 100%;
+    }
   }
 
   .textAreaField:focus {
