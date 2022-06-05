@@ -258,7 +258,7 @@ export default function Home() {
           <Technologies technologies={technologies} />
 
           <h1>My projects</h1>
-          <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a className={"link blue"}>GitHub</a></Link> page.</p>
+          <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a target="_blank" className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
             <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} link={projectLinks.portfolio} />
             <Project name={"PCM - Pocket Crypto Market"} description={"Telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
