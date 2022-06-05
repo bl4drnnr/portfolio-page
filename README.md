@@ -10,6 +10,8 @@ Deployed with:
 
 ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7343471b-feec-47ba-8d4c-2304566a66e6/deploy-status)](https://app.netlify.com/sites/mb-portfolio-page/deploys)
+
 ### Description
 
 Simple one-page portfolio application that had been created with `Next.js`, `JavaScript` and `SASS` (`SCSS`).
