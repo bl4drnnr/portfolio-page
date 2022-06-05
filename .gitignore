@@ -36,4 +36,4 @@ portfolio-page/.env*.local
 portfolio-page/.vercel
 
 # Local Netlify folder
-.netlify
+portfolio-page/.netlify
