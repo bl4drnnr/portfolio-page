@@ -214,7 +214,7 @@ export default function Home() {
 
         <div className={styles.avatarContainer}>
           <div className={styles.avatarBox}>
-            <Image src="/ava.png" alt="Ava" width={300} height={300} className={styles.avatar} />
+            <Image src="/ava2.svg" alt="Ava" width={300} height={300} className={styles.avatar} />
           </div>
         </div>
 
@@ -277,7 +277,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <p className={styles.poweredBy}>Powered by{" "}</p>
         <span>
-          <Image src="/nextjslogo.png" alt="Next.js Logo" width={80} height={48} />
+          <Image src="/nextjslogo.svg" alt="Next.js Logo" width={80} height={48} />
         </span>
       </footer>
 

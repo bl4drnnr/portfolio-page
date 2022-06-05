@@ -6,6 +6,7 @@ portfolio-page/build
 portfolio-page/node_modules
 portfolio-page/package-lock.json
 portfolio-page/.env
+portfolio-page/_next
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
