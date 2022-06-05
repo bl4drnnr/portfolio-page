@@ -6,12 +6,12 @@ export default function Technologies({ technologies }) {
   return (
     <>
       { Object.keys(technologies).map((key, i) => (
-        <span>
+        <span key={i}>
 
           <span className={styles.post}><h3 className={'bold300'}>{key}</h3></span>
 
           <div className={styles.techList}>
-            <ul key={i}>
+            <ul>
               { Object.keys(technologies[key]).map((key2, idx) => (
                 <li key={idx}>{key2}
                   { technologies[key][key2].map(key3 => (
