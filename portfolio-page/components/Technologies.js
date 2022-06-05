@@ -11,16 +11,15 @@ export default function Technologies({ technologies }) {
           <span className={styles.post}><h3 className={'bold300'}>{key}</h3></span>
 
           <div className={styles.techList}>
-            <div>
+            <ul>
               { Object.keys(technologies[key]).map((key2, idx) => (
-                <div key={idx}>
-                  <div>{key2}</div>
+                <li key={idx} className={styles.stackName}>{key2}
                   { technologies[key][key2].map(key3 => (
                     <span key={key3.name} className={styles.badge}><Image className={styles.image} src={key3.name} width={key3.w} height={key3.h} /></span>
                   )) }
-                </div>
+                </li>
               )) }
-            </div>
+            </ul>
           </div>
 
         </span>

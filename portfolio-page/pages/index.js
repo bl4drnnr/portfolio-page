@@ -13,153 +13,131 @@ export default function Home() {
     "Programming languages:": {
       "Primary stack:": [{
         name: "/js.svg",
-        w: 126,
-        h: 28
+        w: 179,
+        h: 40
       }, {
         name: "/ts.svg",
-        w: 126,
-        h: 28
+        w: 190,
+        h: 40
       }, {
         name: "/html5.svg",
-        w: 88,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/css.svg",
-        w: 77,
-        h: 28
-      }],
-      "Secondary stack:": [{
+        w: 100,
+        h: 40
+      },{
         name: "/python.svg",
-        w: 97,
-        h: 28
-      }, {
-        name: "/csharp.svg",
-        w: 61,
-        h: 28
-      }],
-      "Were touched:": [{
-        name: "/java.svg",
-        w: 77,
-        h: 28
-      }, {
-        name: "/dart.svg",
-        w: 79,
-        h: 28
-      }, {
-        name: "/swift.svg",
-        w: 87,
-        h: 28
+        w: 120,
+        h: 40
       }]
     },
     "Frameworks:": {
       "Primary stack:": [{
         name: "/node.svg",
-        w: 101,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/vue.svg",
-        w: 85,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/nuxt.svg",
-        w: 80,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/express.svg",
-        w: 122,
-        h: 28
+        w: 150,
+        h: 40
       }],
       "Secondary stack:": [{
         name: "/react.svg",
-        w: 85,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/next.svg",
-        w: 78,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/nest.svg",
-        w: 92,
-        h: 28
+        w: 120,
+        h: 40
       }],
       "Were touched:": [{
-        name: "/flutter.svg",
-        w: 101,
-        h: 28
-      }, {
         name: "/flask.svg",
-        w: 82,
-        h: 28
+        w: 100,
+        h: 40
       }, {
         name: "/django.svg",
-        w: 98,
-        h: 28
+        w: 120,
+        h: 40
       }]
     },
     "Other technologies:": {
       "Databases:": [{
         name: "/mssql.svg",
-        w: 200,
-        h: 28
+        w: 250,
+        h: 40
       }, {
         name: "/mongo.svg",
-        w: 110,
-        h: 28
+        w: 150,
+        h: 40
       }, {
         name: "/mysql.svg",
-        w: 88,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/postgres.svg",
-        w: 113,
-        h: 28
+        w: 160,
+        h: 40
       }, {
         name: "/sqlite.svg",
-        w: 92,
-        h: 28
+        w: 130,
+        h: 40
       }],
       "DevOps:": [{
         name: "/docker.svg",
-        w: 98,
-        h: 28
+        w: 130,
+        h: 40
       }, {
         name: "/aws.svg",
-        w: 74,
-        h: 28
+        w: 100,
+        h: 40
       }, {
         name: "/azure.svg",
-        w: 87,
-        h: 28
+        w: 100,
+        h: 40
       }, {
         name: "/firebase.svg",
-        w: 109,
-        h: 28
+        w: 130,
+        h: 40
       }, {
         name: "/netlify.svg",
-        w: 100,
-        h: 28
+        w: 130,
+        h: 40
       }],
       "ORM's:": [{
         name: "/sequalize.svg",
-        w: 117,
-        h: 28
+        w: 140,
+        h: 40
       }, {
         name: "/prisma.svg",
-        w: 95,
-        h: 28
+        w: 120,
+        h: 40
       }, {
         name: "/hibernate.svg",
-        w: 70,
-        h: 28
+        w: 100,
+        h: 40
       }],
       "Other:": [{
         name: "/latex.svg",
-        w: 85,
-        h: 28
+        w: 100,
+        h: 40
       }, {
         name: "/jwt.svg",
-        w: 71,
-        h: 28
+        w: 100,
+        h: 40
       }],
     }
   }
@@ -239,7 +217,7 @@ export default function Home() {
           <p className={styles.post}>Hello there, my name is Mikhail Bahdashych (19 y.o)! I am full stack web developer from Belarus, who is currently living in Poland. This page is just my portfolio, where you can find everything about me as about developer - ToolBox, work experience, example projects and contact form.</p>
           <p className={styles.post}>Generally speaking, as web developer, I am interested in modern web technologies, network technologies, Development & Operations and cybersecurity. TypeScript/JavaScript is my primary development programming languages stack. Also, I am very interested in cryptocurrencies and trading is my main hobby (except playing electoguitar, I could be rockstar, but you're reading this *sadface*).</p>
           <h1>ToolBox</h1>
-          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with / or even just "touched":</p>
+          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with:</p>
 
           <Technologies technologies={technologies} />
 
