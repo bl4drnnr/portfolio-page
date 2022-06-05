@@ -108,11 +108,19 @@
       margin-left: 50px;
 
       @media only screen and (max-width: 800px) {
-        margin-left: 0px;
+        margin-left: 0;
       }
 
       .badge {
         margin-left: 5px;
+      }
+      .image {
+        transition: .2s;
+      }
+      .image:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: .2s;
       }
     }
   }
