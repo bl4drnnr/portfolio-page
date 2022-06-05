@@ -8,18 +8,15 @@ export default function Technologies({ technologies }) {
       { Object.keys(technologies).map((key, i) => (
         <span key={i}>
 
-          <span className={styles.post}><h3 className={'bold300'}>{key}</h3></span>
-
           <div className={styles.techList}>
-            <ul>
-              { Object.keys(technologies[key]).map((key2, idx) => (
-                <li key={idx} className={styles.stackName}>{key2}
-                  { technologies[key][key2].map(key3 => (
-                    <span key={key3.name} className={styles.badge}><Image className={styles.image} src={key3.name} width={key3.w} height={key3.h} /></span>
-                  )) }
-                </li>
-              )) }
-            </ul>
+            { Object.keys(technologies[key]).map((key2, idx) => (
+              <div key={idx}>
+                { technologies[key][key2].map(key3 => (
+                  <span key={key3.name} className={styles.badge}><Image className={styles.image} src={key3.name} width={key3.w} height={key3.h} /></span>
+                )) }
+              </div>
+            )) }
+            <hr/>
           </div>
 
         </span>

@@ -20,16 +20,16 @@ export default function Home() {
         w: 190,
         h: 40
       }, {
+        name: "/python.svg",
+        w: 120,
+        h: 40
+      }, {
         name: "/html5.svg",
         w: 120,
         h: 40
       }, {
         name: "/css.svg",
         w: 100,
-        h: 40
-      },{
-        name: "/python.svg",
-        w: 120,
         h: 40
       }]
     },
@@ -63,8 +63,7 @@ export default function Home() {
         name: "/nest.svg",
         w: 120,
         h: 40
-      }],
-      "Were touched:": [{
+      },{
         name: "/flask.svg",
         w: 110,
         h: 40
@@ -72,7 +71,16 @@ export default function Home() {
         name: "/django.svg",
         w: 120,
         h: 40
-      }]
+      }],
+      // "Were touched:": [{
+      //   name: "/flask.svg",
+      //   w: 110,
+      //   h: 40
+      // }, {
+      //   name: "/django.svg",
+      //   w: 120,
+      //   h: 40
+      // }]
     },
     "Other technologies:": {
       "Databases:": [{

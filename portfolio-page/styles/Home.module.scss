@@ -66,6 +66,13 @@
     text-indent: 50px;
   }
 
+  .stackName {
+    font-weight: 500;
+    display: block;
+    width: 75%;
+    margin: 15px auto;
+  }
+
   .contentBox {
     height: 100%;
     width: 70%;
@@ -85,15 +92,9 @@
     }
 
     .techList {
-      margin-left: 50px;
-
-      @media only screen and (max-width: 800px) {
-        margin-left: 0;
-      }
-
-      .stackName {
-
-      }
+      width: 75%;
+      text-align: center;
+      margin: 0 auto;
 
       .badge {
         margin-left: 5px;
