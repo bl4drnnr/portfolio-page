@@ -11,7 +11,7 @@ export default function Home() {
 
   const technologies = {
     "Programming languages:": {
-      "Primary stack:": [{
+      "Primary stack:1": [{
         name: "/js.svg",
         w: 126,
         h: 28
@@ -28,7 +28,7 @@ export default function Home() {
         w: 77,
         h: 28
       }],
-      "Secondary stack:": [{
+      "Secondary stack:2": [{
         name: "/python.svg",
         w: 97,
         h: 28
@@ -37,7 +37,7 @@ export default function Home() {
         w: 61,
         h: 28
       }],
-      "Were touched:": [{
+      "Were touched:3": [{
         name: "/java.svg",
         w: 77,
         h: 28
@@ -52,7 +52,7 @@ export default function Home() {
       }]
     },
     "Frameworks:": {
-      "Primary stack:": [{
+      "Primary stack:4": [{
         name: "/node.svg",
         w: 101,
         h: 28
@@ -69,7 +69,7 @@ export default function Home() {
         w: 122,
         h: 28
       }],
-      "Secondary stack:": [{
+      "Secondary stack:5": [{
         name: "/react.svg",
         w: 85,
         h: 28
@@ -82,7 +82,7 @@ export default function Home() {
         w: 92,
         h: 28
       }],
-      "Were touched:": [{
+      "Were touched:6": [{
         name: "/flutter.svg",
         w: 101,
         h: 28

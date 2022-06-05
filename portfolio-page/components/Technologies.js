@@ -6,16 +6,16 @@ export default function Technologies({ technologies }) {
   return (
     <>
       { Object.keys(technologies).map(key => (
-        <span key={key}>
+        <span>
 
           <span className={styles.post}><h3 className={'bold300'}>{key}</h3></span>
 
           <div className={styles.techList}>
             <ol>
               { Object.keys(technologies[key]).map(key2 => (
-                <li>{key2}
+                <li key={key2}>{key2.slice(0, -1)}
                   { technologies[key][key2].map(key3 => (
-                    <span className={styles.badge}><Image src={key3.name} width={key3.w} height={key3.h} /></span>
+                    <span key={key3.name} className={styles.badge}><Image src={key3.name} width={key3.w} height={key3.h} /></span>
                   )) }
                 </li>
               )) }
