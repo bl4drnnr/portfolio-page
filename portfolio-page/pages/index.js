@@ -225,7 +225,7 @@ export default function Home() {
           <p className={styles.post}>Hello there, my name is Mikhail Bahdashych (19 y.o)! I am full stack web developer from Belarus, who is currently living in Poland. This page is just my portfolio, where you can find everything about me as about developer - ToolBox, work experience, example projects and contact form.</p>
           <p className={styles.post}>Generally speaking, as web developer, I am interested in modern web technologies, network technologies, Development & Operations and cybersecurity. TypeScript/JavaScript is my primary development programming languages stack. Also, I am very interested in cryptocurrencies and trading is my main hobby (except playing electoguitar, I could be rockstar, but you're reading this *sadface*).</p>
           <h1>ToolBox</h1>
-          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / used to work with / worked with:</p>
+          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / was working with / worked with:</p>
 
           <Technologies technologies={technologies} />
 
