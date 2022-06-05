@@ -66,7 +66,7 @@ export default function Home() {
       }],
       "Were touched:": [{
         name: "/flask.svg",
-        w: 100,
+        w: 110,
         h: 40
       }, {
         name: "/django.svg",
@@ -106,7 +106,7 @@ export default function Home() {
         h: 40
       }, {
         name: "/azure.svg",
-        w: 100,
+        w: 120,
         h: 40
       }, {
         name: "/firebase.svg",
@@ -119,7 +119,7 @@ export default function Home() {
       }],
       "ORM's:": [{
         name: "/sequalize.svg",
-        w: 140,
+        w: 150,
         h: 40
       }, {
         name: "/prisma.svg",
