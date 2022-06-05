@@ -5,6 +5,7 @@ portfolio-page/.DS_Store
 portfolio-page/build
 portfolio-page/node_modules
 portfolio-page/package-lock.json
+portfolio-page/.env
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -33,3 +34,6 @@ portfolio-page/.env*.local
 
 # vercel
 portfolio-page/.vercel
+
+# Local Netlify folder
+.netlify
