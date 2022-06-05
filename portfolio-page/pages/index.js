@@ -214,7 +214,7 @@ export default function Home() {
 
         <div className={styles.avatarContainer}>
           <div className={styles.avatarBox}>
-            <Image src="/ava2.svg" alt="Ava" width={300} height={300} className={styles.avatar} />
+            <Image src="/ava.svg" alt="Ava" width={300} height={300} className={styles.avatar} />
           </div>
         </div>
 
