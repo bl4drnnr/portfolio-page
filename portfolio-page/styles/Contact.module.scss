@@ -54,6 +54,10 @@
     font-weight: 100;
     padding: 0 3.5rem;
     line-height: 2.8rem;
+    transition: .2s;
+  }
+  .sendMessageButton:hover {
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 70%);
   }
 
 }
