@@ -14,4 +14,4 @@ Deployed with:
 
 ### Description
 
-Simple one-page portfolio application that had been created with `Next.js`, `JavaScript` and `SASS` (`SCSS`).
+[Simple one-page portfolio](https://mb-portfolio-page.netlify.app/) application that had been created with `Next.js`, `JavaScript` and `SASS` (`SCSS`).
