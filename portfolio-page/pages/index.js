@@ -234,7 +234,7 @@ export default function Home() {
           <div className={styles.projectBox}>
             <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} link={projectLinks.portfolio} />
             <Project name={"PCM - Pocket Crypto Market"} description={"Telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
-            <Project name={"Forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={projectLinks.forum} />
+            <Project name={"Cybersecurity forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={projectLinks.forum} />
           </div>
 
           <h1>Ways to contact me</h1>
