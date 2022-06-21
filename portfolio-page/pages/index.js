@@ -233,6 +233,14 @@ export default function Home() {
             <Project name={"Pear2Pear - 🍐"} description={"Python telegram bot - P2P crypto marketplace and allows users to buy, sell and trade crypto strict from each other."} link={""} />
           </div>
 
+          <h1>Certificates</h1>
+          <ul>
+            <li>CCNA v7: Introduction to networking</li>
+            <li>CCNA v7: Networking essentials</li>
+            <li>CCNA v7: Introduction to cybersecurity</li>
+            <li>CCNA v7: Cybersecurity essentials</li>
+          </ul>
+
           <h1>Ways to contact me</h1>
           <p className={styles.post}>In case if you want to contact me, use this form or text my directly wherever you want (see my social media above), or text me directly on this email:</p>
 
