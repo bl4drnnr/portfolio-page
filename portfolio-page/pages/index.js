@@ -224,13 +224,13 @@ export default function Home() {
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a target="_blank" className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
             <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} link={projectLinks.portfolio} />
-            <Project name={"Giftify store"} description={"One of the biggest project. Online store with giftcards."} link={projectLinks.forum} />
+            <Project name={"Giftify store"} description={"One of the biggest project. Online store with giftcards."} link={""} />
             <Project name={"Pentesters' notes"} description={"Website dedicated to cybersecurity with blog section, forum and live chat."} link={projectLinks.forum} />
           </div>
           <div className={styles.projectBox}>
-            <Project name={"MAL - Market alarmer"} description={"Python telegram bot that notifies you when value market price hits the trigger."} link={projectLinks.portfolio} />
+            <Project name={"MAL - Market alarmer"} description={"Python telegram bot that notifies you when value market price hits the trigger."} link={""} />
             <Project name={"PCM - Pocket Crypto Market"} description={"Python telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
-            <Project name={"Pear2Pear - 🍐"} description={"Python telegram bot - P2P crypto marketplace and allows users to buy, sell and trade crypto strict from each other."} link={projectLinks.pcm} />
+            <Project name={"Pear2Pear - 🍐"} description={"Python telegram bot - P2P crypto marketplace and allows users to buy, sell and trade crypto strict from each other."} link={""} />
           </div>
 
           <h1>Ways to contact me</h1>
