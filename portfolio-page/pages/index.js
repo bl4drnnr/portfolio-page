@@ -142,8 +142,14 @@ export default function Home() {
     forum: "https://github.com/bl4drnnr/Pentester-note-blog-front"
   }
 
+  const [discordState, setDiscordState] = useState('Discord')
   const copyToClipBoard = async copyText => {
     await navigator.clipboard.writeText(copyText);
+
+    setDiscordState('Discord tag has been copied')
+    setTimeout(() => {
+      setDiscordState('Discord')
+    }, 5000)
   };
 
   return (
@@ -197,7 +203,7 @@ export default function Home() {
           </h3>
           <p>
             <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"} onClick={() => copyToClipBoard('bl4drnnr#6177')}
-          >Discord</span>
+          >{discordState}</span>
           </p>
         </div>
 
