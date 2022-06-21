@@ -6,6 +6,7 @@ import Technologies from "../components/Technologies"
 import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
 import Typewriter from 'typewriter-effect';
+import {useState} from "react";
 
 export default function Home() {
 
@@ -13,17 +14,22 @@ export default function Home() {
     "Programming languages:": {
       "Primary stack:": [{
         name: "/js.svg",
-        w: 179,
+        w: 170,
         h: 40
       }, {
         name: "/ts.svg",
-        w: 190,
+        w: 170,
         h: 40
       }, {
         name: "/python.svg",
         w: 120,
         h: 40
       }, {
+        name: "/csharp.svg",
+        w: 90,
+        h: 40
+      }],
+      "Secondary stack:": [{
         name: "/html5.svg",
         w: 120,
         h: 40
@@ -36,14 +42,10 @@ export default function Home() {
     "Frameworks:": {
       "Primary stack:": [{
         name: "/node.svg",
-        w: 120,
+        w: 130,
         h: 40
       }, {
-        name: "/vue.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/nuxt.svg",
+        name: "/nest.svg",
         w: 120,
         h: 40
       }, {
@@ -60,10 +62,15 @@ export default function Home() {
         w: 120,
         h: 40
       }, {
-        name: "/nest.svg",
+        name: "/vue.svg",
         w: 120,
         h: 40
-      },{
+      }, {
+        name: "/nuxt.svg",
+        w: 120,
+        h: 40
+      }],
+      "Were touched:": [{
         name: "/flask.svg",
         w: 110,
         h: 40
@@ -71,16 +78,11 @@ export default function Home() {
         name: "/django.svg",
         w: 120,
         h: 40
-      }],
-      // "Were touched:": [{
-      //   name: "/flask.svg",
-      //   w: 110,
-      //   h: 40
-      // }, {
-      //   name: "/django.svg",
-      //   w: 120,
-      //   h: 40
-      // }]
+      }, {
+        name: "/dotnet.svg",
+        w: 100,
+        h: 40
+      }]
     },
     "Other technologies:": {
       "Databases:": [{
@@ -125,28 +127,6 @@ export default function Home() {
         w: 130,
         h: 40
       }],
-      "ORM's:": [{
-        name: "/sequalize.svg",
-        w: 150,
-        h: 40
-      }, {
-        name: "/prisma.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/hibernate.svg",
-        w: 100,
-        h: 40
-      }],
-      "Other:": [{
-        name: "/latex.svg",
-        w: 100,
-        h: 40
-      }, {
-        name: "/jwt.svg",
-        w: 100,
-        h: 40
-      }],
     }
   }
 
@@ -161,6 +141,10 @@ export default function Home() {
     pcm: "https://github.com/bl4drnnr/PCM-pocket-crypto-market",
     forum: "https://github.com/bl4drnnr/Pentester-note-blog-front"
   }
+
+  const copyToClipBoard = async copyText => {
+    await navigator.clipboard.writeText(copyText);
+  };
 
   return (
     <div>
@@ -212,7 +196,8 @@ export default function Home() {
             />
           </h3>
           <p>
-            <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"}>Discord</span>
+            <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"} onClick={() => copyToClipBoard('bl4drnnr#6177')}
+          >Discord</span>
           </p>
         </div>
 
