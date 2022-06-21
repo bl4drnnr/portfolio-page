@@ -216,7 +216,7 @@ export default function Home() {
           <p className={styles.post}>Hello there, my name is Mikhail Bahdashych (19 y.o)! I am full stack web developer from Belarus, who is currently living in Poland. This page is just my portfolio, where you can find everything about me as about developer - ToolBox, work experience, example projects and contact form.</p>
           <p className={styles.post}>Generally speaking, as web developer, I am interested in modern web technologies, network technologies, Development & Operations and cybersecurity. TypeScript/JavaScript is my primary development programming languages stack. Also, I am very interested in cryptocurrencies and trading is my main hobby (except playing electoguitar, I could be rockstar, but you're reading this *sadface*).</p>
           <h1>ToolBox</h1>
-          <p className={styles.post}>Here is the list of <span className={'bold500'}>ALL</span> technologies, programming languages and frameworks that I work with and use in my projects / was working with / worked with:</p>
+          <p className={styles.post}>Here is the list of all programming languages, frameworks and technologies that I work with and use in my projects / was working with / worked with:</p>
 
           <Technologies technologies={technologies} />
 
@@ -224,8 +224,13 @@ export default function Home() {
           <p className={styles.post}>Below you can find a list of my projects, as well as short description and the source code for them. The entire source code, as well as a more detailed description of all projects, can be found at my <Link href={"https://github.com/bl4drnnr"}><a target="_blank" className={"link blue"}>GitHub</a></Link> page.</p>
           <div className={styles.projectBox}>
             <Project name={"Page portfolio"} description={"Source code of this portfolio Next.js page."} link={projectLinks.portfolio} />
-            <Project name={"PCM - Pocket Crypto Market"} description={"Telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
-            <Project name={"Cybersecurity forum"} description={"Forum dedicated to cybersecurity with login and registration system."} link={projectLinks.forum} />
+            <Project name={"Giftify store"} description={"One of the biggest project. Online store with giftcards."} link={projectLinks.forum} />
+            <Project name={"Pentesters' notes"} description={"Website dedicated to cybersecurity with blog section, forum and live chat."} link={projectLinks.forum} />
+          </div>
+          <div className={styles.projectBox}>
+            <Project name={"MAL - Market alarmer"} description={"Python telegram bot that notifies you when value market price hits the trigger."} link={projectLinks.portfolio} />
+            <Project name={"PCM - Pocket Crypto Market"} description={"Python telegram bot with HTTP TypeScript Express.js server that allows you to buy and sell crypto."} link={projectLinks.pcm} />
+            <Project name={"Pear2Pear - 🍐"} description={"Python telegram bot - P2P crypto marketplace and allows users to buy, sell and trade crypto strict from each other."} link={projectLinks.pcm} />
           </div>
 
           <h1>Ways to contact me</h1>
