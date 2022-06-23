@@ -3,11 +3,13 @@
 [data-theme="light"] {
   --font-color: #181b20;
   --background-color: #fcfcfc;
+  --box-shadow: rgba(0, 0, 0, .12);
 }
 
 [data-theme="dark"] {
   --font-color: #fcfcfc;
   --background-color: #181b20;
+  --box-shadow: rgba(255, 255, 255, .12);
 }
 
 html,
