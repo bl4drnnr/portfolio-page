@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;900&display=swap');
 
 [data-theme="light"] {
-  --font-color: #333;
-  --background-color: #eee;
-  --link-color: cornflowerblue;
+  --font-color: #000;
+  --background-color: #fff;
 }
 
-/* 2 */
 [data-theme="dark"] {
-  --font-color: #eee;
+  --font-color: #fff;
   --background-color: #000;
-  --link-color: lightblue;
 }
 
 html,

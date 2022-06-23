@@ -84,7 +84,7 @@ export default function Home() {
               }}
             />
           </h3>
-          <p>
+          <p className={styles.links}>
             <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"} onClick={() => copyToClipBoard('bl4drnnr#6177')}
           >{discordState}</span>
           </p>
