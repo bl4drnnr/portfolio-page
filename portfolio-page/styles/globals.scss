@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;900&display=swap');
 
+[data-theme="light"] {
+  --font-color: #333;
+  --background-color: #eee;
+  --link-color: cornflowerblue;
+}
+
+/* 2 */
+[data-theme="dark"] {
+  --font-color: #eee;
+  --background-color: #000;
+  --link-color: lightblue;
+}
+
 html,
 body {
   padding: 0;
@@ -13,8 +26,8 @@ body {
   box-sizing: border-box;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: white;
+.post, p, h1, h2, h3, h4, h5, h6 {
+  color: var(--font-color);
   font-weight: 100;
 }
 
