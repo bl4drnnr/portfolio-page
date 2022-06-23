@@ -26,7 +26,7 @@
       h1 {
         margin: 0;
         font-size: 56px;
-        color: #fff;
+        color: #fcfcfc;
         @media only screen and (max-width: 1000px) {
             font-size: 32px;
         }
@@ -40,14 +40,14 @@
     text-align: center;
     h1 {
       font-size: 42px;
-      color: #fff;
+      color: #fcfcfc;
     }
     h3 {
       font-size: 28px;
-      color: #fff;
+      color: #fcfcfc;
     }
     .links {
-      color: #fff;
+      color: #fcfcfc;
     }
   }
 }
@@ -116,6 +116,10 @@
         transform: scale(1.1);
         transition: .2s;
       }
+    }
+
+    li {
+      color: var(--font-color)
     }
   }
 }
