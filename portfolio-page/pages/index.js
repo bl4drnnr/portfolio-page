@@ -7,6 +7,7 @@ import ThemeToggleButton from "../components/ThemeToggleButton";
 import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
 import Typewriter from 'typewriter-effect';
+import {technologies} from "../components/TechnologiesList";
 import {useState} from "react";
 
 export default function Home() {
@@ -23,126 +24,6 @@ export default function Home() {
     portfolio: "https://github.com/bl4drnnr/portfolio-page",
     pcm: "https://github.com/bl4drnnr/PCM-pocket-crypto-market",
     forum: "https://github.com/bl4drnnr/Pentester-note-blog-front"
-  }
-
-  const technologies = {
-    "Programming languages:": {
-      "Primary stack:": [{
-        name: "/js.svg",
-        w: 170,
-        h: 40
-      }, {
-        name: "/ts.svg",
-        w: 170,
-        h: 40
-      }, {
-        name: "/python.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/csharp.svg",
-        w: 90,
-        h: 40
-      }],
-      "Secondary stack:": [{
-        name: "/html5.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/css.svg",
-        w: 100,
-        h: 40
-      }]
-    },
-    "Frameworks:": {
-      "Primary stack:": [{
-        name: "/node.svg",
-        w: 130,
-        h: 40
-      }, {
-        name: "/nest.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/express.svg",
-        w: 150,
-        h: 40
-      }],
-      "Secondary stack:": [{
-        name: "/react.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/next.svg",
-        w: 110,
-        h: 40
-      }, {
-        name: "/vue.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/nuxt.svg",
-        w: 120,
-        h: 40
-      }],
-      "Were touched:": [{
-        name: "/flask.svg",
-        w: 110,
-        h: 40
-      }, {
-        name: "/django.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/dotnet.svg",
-        w: 100,
-        h: 40
-      }]
-    },
-    "Other technologies:": {
-      "Databases:": [{
-        name: "/mssql.svg",
-        w: 250,
-        h: 40
-      }, {
-        name: "/mongo.svg",
-        w: 150,
-        h: 40
-      }, {
-        name: "/mysql.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/postgres.svg",
-        w: 160,
-        h: 40
-      }, {
-        name: "/sqlite.svg",
-        w: 130,
-        h: 40
-      }],
-      "DevOps:": [{
-        name: "/docker.svg",
-        w: 130,
-        h: 40
-      }, {
-        name: "/aws.svg",
-        w: 100,
-        h: 40
-      }, {
-        name: "/azure.svg",
-        w: 120,
-        h: 40
-      }, {
-        name: "/firebase.svg",
-        w: 130,
-        h: 40
-      }, {
-        name: "/netlify.svg",
-        w: 130,
-        h: 40
-      }],
-    }
   }
 
   const copyToClipBoard = async copyText => {
@@ -207,8 +88,9 @@ export default function Home() {
             <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"} onClick={() => copyToClipBoard('bl4drnnr#6177')}
           >{discordState}</span>
           </p>
-          <ThemeToggleButton />
         </div>
+
+        <ThemeToggleButton />
 
       </main>
 
