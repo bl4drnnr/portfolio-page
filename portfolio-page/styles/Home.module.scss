@@ -55,7 +55,7 @@
 .contentContainer {
   display: flex;
   height: 100%;
-  background: #fcfcfc;
+  background: var(--background-color);
   width: 100%;
 
   @media only screen and (max-width: 475px) {
@@ -67,6 +67,7 @@
   }
   .post {
     text-indent: 50px;
+    color: var(--font-color)
   }
 
   .stackName {
