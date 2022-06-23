@@ -95,6 +95,9 @@
       width: 75%;
       text-align: center;
       margin: 0 auto;
+      @media only screen and (max-width: 800px) {
+        width: 95%;
+      }
 
       .badge {
         margin-left: 5px;
@@ -103,6 +106,7 @@
       .image {
         transition: .2s;
       }
+
       .image:hover {
         cursor: pointer;
         transform: scale(1.1);

@@ -3,6 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Project from "../components/Project"
 import Technologies from "../components/Technologies"
+import ThemeToggleButton from "../components/ThemeToggleButton";
 import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
 import Typewriter from 'typewriter-effect';
@@ -73,7 +74,7 @@ export default function Home() {
         h: 40
       }, {
         name: "/next.svg",
-        w: 120,
+        w: 110,
         h: 40
       }, {
         name: "/vue.svg",
@@ -206,6 +207,7 @@ export default function Home() {
             <Link href={socialMediaLinks.gt}><a target="_blank">GitHub</a></Link> / <Link href={socialMediaLinks.li}><a target="_blank">LinkedIn</a></Link> / <Link href={socialMediaLinks.tw}><a target="_blank">Twitter</a></Link> / <span className={"link"} onClick={() => copyToClipBoard('bl4drnnr#6177')}
           >{discordState}</span>
           </p>
+          <ThemeToggleButton />
         </div>
 
       </main>
