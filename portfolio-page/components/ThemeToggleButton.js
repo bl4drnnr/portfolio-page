@@ -9,7 +9,7 @@ const setLight = () => {
   document.documentElement.setAttribute("data-theme", "light");
 };
 
-const defaultDark = "dark"
+const defaultDark = "light"
 
 const toggleTheme = (e) => {
   if (e.target.checked)
