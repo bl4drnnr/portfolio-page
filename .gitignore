@@ -1,40 +1,35 @@
 .idea
 .DS_Store
-portfolio-page/.idea
-portfolio-page/.DS_Store
-portfolio-page/build
-portfolio-page/node_modules
-portfolio-page/package-lock.json
-portfolio-page/.env
-portfolio-page/_next
+build
+node_modules
+package-lock.json
+.env
+_next
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-portfolio-page/.pnp
-portfolio-page/.pnp.js
+.pnp
+.pnp.js
 
 # testing
-portfolio-page/coverage
+coverage
 
 # next.js
-portfolio-page/.next/
-portfolio-page/out/
+.next/
+out/
 
 # misc
-spa-portfolio/*.pem
+*.pem
 
 # debug
-portfolio-page/npm-debug.log*
-portfolio-page/yarn-debug.log*
-portfolio-page/yarn-error.log*
-portfolio-page/.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
-portfolio-page/.env*.local
+.env*.local
 
 # vercel
-portfolio-page/.vercel
-
-# Local Netlify folder
-portfolio-page/.netlify
+.vercel

@@ -42,7 +42,7 @@ export default function Home() {
         <meta name="description" content="Mikhail Bahdashych Portfolio Page" />
         <meta name="keywords" content="Mikhail,Bahdashych,Portfolio,Page" />
         <meta name="author" content="Mikhail Bahdashych" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/public/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
