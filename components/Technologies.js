@@ -1,5 +1,6 @@
 import Image from "next/image"
 import styles from "../styles/Home.module.scss"
+import { prefix } from "../prefix";
 
 export default function Technologies({ technologies }) {
 
@@ -12,7 +13,7 @@ export default function Technologies({ technologies }) {
             { Object.keys(technologies[key]).map((key2, idx) => (
               <div key={idx}>
                 { technologies[key][key2].map(key3 => (
-                  <span key={key3.name} className={styles.badge}><Image className={styles.image} src={"/home" + key3.name} width={key3.w} height={key3.h} /></span>
+                  <span key={key3.name} className={styles.badge}><Image className={styles.image} src={prefix + key3.name} width={key3.w} height={key3.h} /></span>
                 )) }
               </div>
             )) }
