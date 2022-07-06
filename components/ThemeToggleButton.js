@@ -25,8 +25,8 @@ export default function ThemeToggleButton() {
         <input onChange={toggleTheme} defaultChecked={defaultDark}
           type="checkbox" className={styles.checkbox} id="checkbox"/>
           <label htmlFor="checkbox" className={styles.label}>
-            <Image src={"/moon.svg"} width={13} height={13}/>
-            <Image src={"/sun.svg"} width={13} height={13}/>
+            <Image src={"/home/moon.svg"} width={13} height={13}/>
+            <Image src={"/home/sun.svg"} width={13} height={13}/>
             <div className={styles.ball} />
           </label>
       </div>

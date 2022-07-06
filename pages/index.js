@@ -138,7 +138,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <p className={styles.poweredBy}>Powered by{" "}</p>
         <span>
-              <Image src="/nextjslogo.svg" alt="Next.js Logo" width={80} height={48} />
+              <Image src="/home/nextjslogo.svg" alt="Next.js Logo" width={80} height={48} />
             </span>
       </footer>
 
