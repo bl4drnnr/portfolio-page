@@ -9,7 +9,6 @@ import styles from "../styles/Home.module.scss"
 import Typewriter from 'typewriter-effect';
 import {technologies} from "../components/TechnologiesList";
 import {useState, useEffect} from "react";
-import {prefix} from "../prefix";
 
 export default function Home() {
 
@@ -143,7 +142,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <p className={styles.poweredBy}>Powered by{" "}</p>
         <span>
-              <Image src={`${prefix}/nextjslogo.svg`} alt="Next.js Logo" width={80} height={48} />
+              <Image src={`/nextjslogo.svg`} alt="Next.js Logo" width={80} height={48} />
             </span>
       </footer>
 
