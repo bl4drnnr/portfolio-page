@@ -8,7 +8,7 @@ import Contact from "../components/Contact"
 import styles from "../styles/Home.module.scss"
 import Typewriter from 'typewriter-effect';
 import {technologies} from "../components/TechnologiesList";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import {prefix} from "../prefix";
 
 export default function Home() {
@@ -26,6 +26,10 @@ export default function Home() {
     pcm: "https://github.com/bl4drnnr/PCM-pocket-crypto-market",
     forum: "https://github.com/bl4drnnr/Pentester-note-blog-front"
   }
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", "light");
+  })
 
   const copyToClipBoard = async copyText => {
     await navigator.clipboard.writeText(copyText);
